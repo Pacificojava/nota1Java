@@ -5,11 +5,11 @@ public class Main  {
 
         //tela
         System.out.println("_________________DADOS DO CLIENTE________________");
-        System.out.println("cpf do cliente: " +cliente1.cpf);
-        System.out.println("Nome do cliente: " +cliente1.nome);
-        System.out.println("Telefone do cliente: " +cliente1.telefone);
-        System.out.println("Email do cliente: " +cliente1.email);
-
+        System.out.println("--> CPF: " +cliente1.cpf);
+        System.out.println("--> NOME: " +cliente1.nome);
+        System.out.println("--> TELEFONE: " +cliente1.telefone);
+        System.out.println("--> EMAIL: " +cliente1.email);
+        System.out.println("___________________________________________________");
 
 
     }
