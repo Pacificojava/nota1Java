@@ -43,5 +43,10 @@ public class Cliente {
     public void setEmail(String email) {
         this.email = email;
     }
+    /*A Classe Cliente deve conter os atributos: String cpf, String nome, String telefone e String email. - PRONTO.
+     Implementando:
+● Um construtor que receba todos os atributos; - PRONTO.
+● Métodos getters e setters para todos os campos (- PRONTO), com validações simples (ex.: CPF e telefone não podem ser vazios).
+     */
 
 }

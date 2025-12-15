@@ -12,7 +12,7 @@ class Conta {
         this.saldo = 0.0;
 
     }
-
+    //GETTERS E SETTERS
     public Cliente getCliente() {
         return cliente;
     }
@@ -41,19 +41,27 @@ class Conta {
         this.saldo = saldo;
     }
 
-    //getters
     public double getSaldo() {
         return saldo;
     }
+    //DEPOSITAR
     public void deposito(double valor) {
         if (valor > 0);
         this.saldo += saldo;
         IO.println("DEPOSITO DE: R$ \n" + valor);
     }
+    //SACAR
     public void sacar(double valor) {
         if (valor >= 0 ) {
             this.saldo -= saldo;
             IO.println("SAQUE DE R$: \n" + valor);
         }
     }
+/*A Classe Conta deve conter os atributos: Cliente cliente, int numero, int agencia e double saldo.- PRONTO.
+Implementando:
+● Um construtor que receba todos os atributos;- PRONTO.
+● Métodos getters e setters;- PRONTO.
+● depositar(double valor) – só permite valores positivos; - PRONTO
+● sacar(double valor) – só permite valores positivos e menores ou iguais ao saldo disponível.- PRONTO */
+
 }

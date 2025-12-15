@@ -13,11 +13,21 @@ public class  Banco {
         this.listaCliente = new ArrayList<>();
         this.listaContas = new ArrayList<>();
     }
+    //função para adicionar o cliente
+    public void adicionarCliente(Cliente cliente){
+        this.listaCliente.add(cliente);
+        IO.println("CLIENTE ADICIONADO COM SUCESSO!: " + cliente.getNome());
+    }
 
 
-/* Um construtor vazio que inicialize as listas;
+/* A Classe Banco deve conter os atributos:
+List<Cliente> Clientes - PRONTO.
+List<Conta> Contas - PRONTO.
+Implementando:
+● Um construtor vazio que inicialize as listas;- PRONTO.
 ● Métodos getters e setters quando necessário;
-● transferir(int numeroOrigem, int numeroDestino, double valor) – realiza uma transferência entre contas, verificando a existência e o saldo.
-     */
+● buscarCliente(String cpf) – procura um cliente cadastrado; - FALTA.
+● buscarConta(int numero, int agencia) – retorna a conta correspondente;  - FALTA.
+● transferir(int numeroOrigem, int numeroDestino, double valor) – realiza uma transferência entre contas, verificando a existência e o saldo.  - FALTA. */
 
 }
